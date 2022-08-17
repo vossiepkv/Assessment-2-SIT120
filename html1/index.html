@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>University Inn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!----nav bar---->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand"><img src="img/hotel.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio/portfolio.html">Book A Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="payment/test.html"> See whats Nearby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact/contact.html"> Contact Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login/login.html">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+<!----slider----->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/main.jpg">
+                    <div class="carousel-caption">
+                        <h5>Welcome To The University Inn</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/img2.jpg">
+                    <div class="carousel-caption">
+                        <h5>Fun Activities That Are Only A 5 Minute Walk Away</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/img3.jpg">
+                    <div class="carousel-caption">
+                        <h5>Amazing Service 24/7</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!---------reviews---------->
+    <section id="testimonials">
+        <div class="container">
+            <h1>Guest Reviews </h1>
+            <p class="text-center">Reviews From Some Of Our Happy Satisfied Guests.</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="img/lachie.jpg" class="user">
+                        <blockquote>wow we struggled to find a hotel that would cater for my 16 sons and daughters but they pulled through and found space for us forever grateful 5/5!.</blockquote>
+                        <h3>vivvan fernandes <span>Dad of 16</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="img/arayan.jpg" class="user">
+                        <blockquote>i will forever be greatful for this hotel as i needed to hide from my 3 wives and the hotel helped me out with a last minute booking 5/5 stars!.</blockquote>
+                        <h3>Arjun kilem <span>husband of 3</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="img/tiarne.jpg" class="user">
+                        <blockquote>what a wondeful hotel wasnt too far to the ice-cream shop and there was a festival right down the road while i get ready to go hiking in the mountains 5/5</blockquote>
+                        <h3>Natalie Moore <span></span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-----------Footer------->
+        <section id="footer">
+            <div class="container text-center">
+                <p>Made With <i class="fa fa-heart-o"></i> by Patrick Vohs</p>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            </div>
+        </section>
+        <!------Footer End------>
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+    
+        </script>
+</body>
+</html>
+
+
