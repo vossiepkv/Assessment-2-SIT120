@@ -1,0 +1,62 @@
+<html>
+    
+
+    <head>
+        <title>JS string methods</title>
+    </head>
+
+
+<body>
+
+<h1>JavaScript String Methods</h1>
+
+
+<h3>Convert string to upper case:</h3>
+
+<button onclick="myFunction()">Try it now</button>
+
+        <p id="upper">i hate javascript its so confusing!</p>
+
+        <script>
+        function myFunction() {
+        let text = document.getElementById("upper").innerHTML;
+        document.getElementById("upper").innerHTML =
+        text.toUpperCase();
+        }
+        </script>
+
+
+<h3>The concat() method joins multiple strings together</h3>
+
+        <p id="join"></p>
+
+        <script>
+        let text1 = "Sup";
+        let text2 = "man!";
+        let text3 = text1.concat(" ",text2);
+        document.getElementById("join").innerHTML = text3;
+        </script>
+
+
+
+<h3>the String.split() method</h3>
+
+        <p id="split"></p>
+
+        <script>
+        let text = "hey man!";
+        const myArr = text.split("");
+
+        text = "";
+        for (let i = 0; i < myArr.length; i++) {
+        text += myArr[i] + "<br>"
+        }
+        document.getElementById("split").innerHTML = text;
+        </script>
+
+<h4>this is only half the task there is another one called <a href="week3_pstsk1pt2.html"> week3_pstsk1pt2.html</a></h4>
+
+</body>
+</html>
+
+
